@@ -1,0 +1,8 @@
+version: '3'
+services:
+    ${appName}:
+        build: .
+        image: ${appName}:latest
+        container_name: ${appName}
+        ports:
+            - "8080:8080"
