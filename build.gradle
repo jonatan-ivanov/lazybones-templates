@@ -13,6 +13,10 @@ buildscript {
 apply plugin: 'uk.co.cacoethes.lazybones-templates'
 
 lazybones {
+    template('fatjar-cli') {
+        fileMode '744', 'gradlew', 'src/main/groovy/app.groovy'
+    }
+
     repositoryName = '<account>/<templates-repo>'
 
     // It's best to pull this information from a gradle.properties file in the

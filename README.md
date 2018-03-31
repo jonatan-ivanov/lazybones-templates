@@ -9,3 +9,7 @@ Install templates: `./gradlew installAllTemplates`
 ## nanoservice
 Small (one-file) nanoservice using spring-boot  
 Generating a nanoservice: `lazybones create nanoservice 1.0 my-svc`
+
+## fatjar-cli
+Groovy based command-line application which can run as a script or can be packed into a fat-jar  
+Generating a fatjar-cli: `lazybones create fatjar-cli 1.0 my-cli`
