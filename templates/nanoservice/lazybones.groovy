@@ -5,3 +5,13 @@ processTemplates 'config/application.properties', props
 processTemplates 'Dockerfile', props
 processTemplates 'docker-compose.yml', props
 processTemplates 'README.md', props
+
+new File("$projectDir/.gitignore").text = '''
+.idea/
+*.iws
+*.ipr
+*.iml
+
+*.jar
+*.jar.original
+'''
