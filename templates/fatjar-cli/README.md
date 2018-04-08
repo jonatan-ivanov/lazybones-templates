@@ -6,5 +6,5 @@
 
 ## Build and run as a jar
 
-`./gradlew clean build`
+`./gradlew clean build`  
 `java -jar build/libs/${appName}.jar hello`
